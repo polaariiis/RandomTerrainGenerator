@@ -1,0 +1,37 @@
+# Ignore build output
+x64/
+Debug/
+Release/
+*.obj
+*.pdb
+*.exe
+*.dll
+*.lib
+*.log
+
+# Ignore dependencies (local libs)
+dependencies/
+
+# Ignore Visual Studio cache and user-specific files
+*.suo
+*.user
+*.vcxproj.user
+*.vcxproj.filters
+*.ipch
+*.aps
+*.ncb
+*.opendb
+*.idb
+
+# Ignore VS Code settings (if used)
+.vscode/
+
+# Ignore temporary files
+*.tmp
+*.cache
+*.ilk
+
+# Ignore generated binaries from SFML linking
+*.exp
+
+.vs/
